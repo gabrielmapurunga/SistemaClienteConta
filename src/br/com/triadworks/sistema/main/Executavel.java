@@ -26,11 +26,7 @@ public class Executavel {
 				if(opcao == 2){
 					c.imprimeCadastro();
 				}
-				if(opcao == 3){
-					System.out.println("Sistema encerrado.");
-					break;
-				}
-				if(opcao <= 0 || opcao > 3){
+				if(opcao <= 0 || opcao > 2){
 					System.out.println("Opção inválida.");
 				}
 			} 
